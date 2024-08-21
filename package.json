@@ -1,0 +1,9 @@
+{
+  "name": "factorial-capital-site",
+  "version": "1.0.0",
+  "description": "Factorial Capital website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

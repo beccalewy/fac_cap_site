@@ -1,0 +1,18 @@
+run = "npm start"
+modules = ["nodejs-20"]
+
+[nix]
+channel = "stable-24_05"
+
+[nix.env]
+NODE_VERSION = "18"
+
+[deployment]
+run = ["sh", "-c", "npm start"]
+
+[commands]
+start = "node server.js"
+
+[[ports]]
+localPort = 8080
+externalPort = 80

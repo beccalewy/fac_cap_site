@@ -4,103 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Factorial Capital</title>
-    <style>
-        body {
-            font-family: 'Courier New', monospace;
-            background-color: #0c0c0c;
-            color: #00bfff;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-            box-sizing: border-box;
-            font-size: 20px;
-        }
-        h1 {
-            font-size: 48px;
-            margin-bottom: 3vh;
-        }
-        h2 {
-            font-size: 24px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            display: inline-block;
-        }
-        li {
-            font-size: 22px;
-            margin-bottom: 5px;
-        }
-        p {
-            font-size: 22px;
-            max-width: 800px;
-            margin: 20px auto;
-        }
-        .version {
-            margin-top: opx;
-            margin-bottom: 50px;
-        }
-        .ascii-art {
-            margin-top: 50px;
-            font-size: 2vw;
-            line-height: 1.2;
-            overflow-x: auto;
-            white-space: pre;
-            text-align: center;
-            font-weight: bold;
-            animation: colorChange 6s infinite;
-        }
-         @keyframes colorChange {
-            0%, 100% { color: #A0FFA8; }
-            25% { color: #55B8FB; }
-            50% { color: #FFCD5D; }
-        }
-         a {
-            color: #00bfff;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        a:hover {
-            color: #ffffff;
-        }
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-                font-size: 14px;
-            }
-            h1 {
-                font-size: 36px;
-            }
-            h2 {
-                font-size: 20px;
-            }
-            li, p {
-                font-size: 14px;
-            }
-            .ascii-art {
-                font-size: 2vw;
-            }
-        }
-        @media (max-width: 480px) {
-            body {
-                font-size: 12px;
-            }
-            h1 {
-                font-size: 28px;
-            }
-            h2 {
-                font-size: 18px;
-            }
-            li, p {
-                font-size: 12px;
-            }
-            .ascii-art {
-                font-size: 2vw;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
         <div class="ascii-art">
@@ -118,36 +22,36 @@
                                                                                       
 
         </div>
-            <div class="version"> v1.2</div>
+            <div class="version"> v2</div>
         <h1> how we work </h1>
         <p>we partner with business angels to write up to $400k checks in the companies they’re most excited about - we call them "PMs" (i.e. "portfolio managers"). Some PMs include:</p> 
 
-        <ul>
-            <li><a href="clementdelangue.html">Clemant Delangue (Hugging Face)</a></li>
-            <li>Thomas Wolf (Hugging Face)</li>
-            <li>Alex Chung (Giphy)</li>
-            <li>Iqram Magdon-Ismail (Venmo)</li>
-            <li>Brandon Duderstadt (Nomic)</li>
-            <li>Andriy Mulyar (Nomic)</li>
-            <li>Hilary Mason (Hidden Door)</li>
-            <li>Matt Hackett (Beme)</li>
-        </ul>
+<ul class="plain-list">
+                <li><a href="clementdelangue.html">Clemant Delangue (HuggingFace)</a></li>
+                <li><a href="thomaswolf.html">Thomas Wolf (HuggingFace)</a></li>
+                <li><a href="alexchung.html">Alex Chung (Giphy)</a></li>
+                <li><a href="iqrammagdonismail.html">Iqram Magdon-Ismail (Venmo)</a></li>
+                <li><a href="brandonduderstadt.html">Brandon Duderstadt (Nomic)</a></li>
+                <li><a href="andriymulyar.html">Andriy Mulyar (Nomic)</a></li>
+                <li><a href="hilarymason.html">Hilary Mason (Hidden Door)</a></li>
+                <li><a href="matthackett.html">Matt Hackett (Beme)</a></li>
+            </ul>
 
         <h1> stats </h1>
-            <ul>
+            <ul class="plain-list">
                 <li>Check size: up to $400k</li>
                 <li>Stage: Pre-seed, Seed, sometimes Series A</li>
                  <li>We're happy to be your first or last check</li>
             </ul>
 
         <h1> team </h1>
-            <ul>
+            <ul class="plain-list">
                  <li><a href="https://www.linkedin.com/in/matthewforresthartman/" target="_blank" rel="noopener noreferrer">Matt Hartman - Founder and Managing Partner</a></li>
                  <li><a href="https://www.linkedin.com/in/rebeccajeanharris/" target="_blank" rel="noopener noreferrer">Becca Harris Lewy - Chief of Staff</a></li>
             </ul>
 
         <h1> portfolio</h1>
-        <ul>
+        <ul class="plain-list">
             <li><a href="https://www.adaptive-ml.com/" target="_blank" rel="noopener noreferrer">adaptive</a></li>
             <li><a href="https://www.amata.ai/" target="_blank" rel="noopener noreferrer">amata</a></li>
             <li><a href="https://argilla.io/" target="_blank" rel="noopener noreferrer">argilla (acq by Hugging Face)</a></li>

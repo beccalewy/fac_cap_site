@@ -1,3 +1,18 @@
+ascii-art {
+    font-family: monospace;
+    white-space: pre;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    line-height: 1.2;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 100%;
+    min-height: 50vh;
+    overflow-x: auto;
+    animation: rainbow 10s linear infinite !important;
+}
+
 body {
   font-family: 'Courier New', monospace;
   background-color: #0c0c0c;
@@ -34,20 +49,7 @@ a:hover {
   color: #ffffff;
 }
 
-ascii-art {
-    font-family: monospace;
-    white-space: pre;
-    display: flex;
-    align-items: center;
-    font-size: 1vw;
-    line-height: 1.2;
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 100%;
-    min-height: 50vh;
-    overflow-x: auto;
-    animation: rainbow 10s linear infinite;
-}
+
 
 .back-link {
     margin-top: 30px;
